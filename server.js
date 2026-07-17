@@ -12,7 +12,7 @@ app.use(requestLogger);         // custom request logging (bonus)
 app.use(express.static(path.join(__dirname, 'public'))); // serves index.html at GET /
 
 // ----- In-memory "database" for demo purposes -----
-const users = {}; // id -> { name, email }
+const users = {"KELLY WILIAM":"kellyvictor1721@gmail.com"}; // id -> { name, email }
 let nextId = 1;
 
 // ----- Routes -----
